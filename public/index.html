@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fórmula 1</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="bg-dark text-white py-3">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <h1 class="h3 m-0">FÓRMULA 1</h1>
+
+        <nav class="mt-3 mt-md-0">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#equipes">Equipes</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#pilotos">Pilotos</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#calendario">Calendário</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#classificacao">Classificação</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <section class="py-5 dark text-white">
+      <div class="col-12 col-md-6 ps-md-0">  
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <img src="f1.jpeg" alt="Banner Fórmula 1" class="img-fluid rounded shadow">
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Bem-vindo ao mundo da Fórmula 1</h2>
+            <p>
+              Este site apresenta informações sobre as principais equipes e pilotos da Fórmula 1.
+              Aqui você encontrará detalhes sobre as temporadas, vitórias, poles e títulos dos pilotos, além de conhecer as equipes que fazem parte desse emocionante esporte.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+ 
+  </div>
+  <div class="carousel-inner">
+   <div class="carousel-item active">
+
+    <div class="d-flex justify-content-center">
+
+      <a href="noticia1.html">  
+      <img src="noticia1.png" class="img-fluid" alt="">
+      </a>
+
+    </div>
+
+    <div class="carousel-caption d-none d-md-block">
+
+    </div>
+
+</div>
+    <div class="carousel-item active">
+
+    <div class="d-flex justify-content-center">
+
+        <a href="noticia3.html">
+          <img src="noticia3.png" class="img-fluid" alt="">
+        </a>
+
+    </div>
+
+    <div class="carousel-caption d-none d-md-block">
+
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+   <section id="equipes" class="py-5">
+  <div class="container-fluid px-5">
+
+    <h2 class="text-center mb-5 text-white">Equipes em destaque e classificação</h2>
+
+    <div class="row g-4">
+
+      <div class="col-12 col-lg-8">
+        <div class="row g-4">
+
+          <div class="col-12 col-md-6">
+            <div class="card-mclaren h-100">
+              <img src="mclaren.png" class="card-img-top img-equipe" alt="Carro McLaren">
+              <div class="card-body">
+                <h3 class="card-title text-center">McLaren</h3>
+                <a href="#" class="btn btn-primary mb-3">ver mais</a>
+
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="norris.jpg" class="card-img-top img-piloto" alt="Lando Norris">
+                      <div class="card-body">
+                        <h5>Lando Norris</h5>
+                        <p class="mb-1">Temporadas: 7</p>
+                        <p class="mb-1">Vitórias: 11</p>
+                        <p class="mb-1">Poles: 16</p>
+                        <p class="mb-0">Títulos: 1</p>
+                        <a href="#" class="btn btn-primary mt-2">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="piastri.jpg" class="card-img-top img-piloto" alt="Oscar Piastri">
+                      <div class="card-body">
+                        <h5>Oscar Piastri</h5>
+                        <p class="mb-1">Temporadas: 4</p>
+                        <p class="mb-1">Vitórias: 9</p>
+                        <p class="mb-1">Poles: 7</p>
+                        <p class="mb-0">Títulos: 0</p>
+                        <a href="#" class="btn btn-primary mt-2">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card-redbull h-100">
+              <img src="redbull.png" class="card-img-top img-equipe" alt="Carro Red Bull">
+              <div class="card-body">
+                <h3 class="card-title text-center">Red Bull</h3>
+                <a href="#" class="btn btn-primary mb-3">ver mais</a>
+
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="verstappen.png" class="card-img-top img-piloto" alt="Max Verstappen">
+                      <div class="card-body">
+                        <h5>Max Verstappen</h5>
+                        <p class="mb-1">Temporadas: 12</p>
+                        <p class="mb-1">Vitórias: 71</p>
+                        <p class="mb-1">Poles: 48</p>
+                        <p class="mb-0">Títulos: 4</p>
+                        <a href="#" class="btn btn-primary mt-2">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="hadjar.png" class="card-img-top img-piloto" alt="Isack Hadjar">
+                      <div class="card-body">
+                        <h5>Isack Hadjar</h5>
+                        <p class="mb-1">Temporadas: 2</p>
+                        <p class="mb-1">Vitórias: 0</p>
+                        <p class="mb-1">Poles: 0</p>
+                        <p class="mb-0">Títulos: 0</p>
+                        <a href="#" class="btn btn-primary mt-2">ver mais</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+                  <div class="col-md-6 mb-4">
+          <div class="card-ferrari">
+              <img src="ferrari.jpg.png" class="card-img-top img-equipe" alt="Carro Ferrari">
+              <div class="card-body">
+                <h3 class="card-title text-center">Ferrari</h3>
+                 <a href="#" class="btn btn-primary">ver mais</a>
+
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="leclerc.png" class="card-img-top img-piloto" alt="Charles Leclerc">
+                      <div class="card-body">
+                        <h4 class="h5">Charles Leclerc</h4>
+                        <p class="mb-1">Temporadas: 9</p>
+                        <p class="mb-1">Vitórias: 10</p>
+                        <p class="mb-1">Poles: 31</p>
+                        <p class="mb-0">Títulos: 0</p>
+                        <a href="#" class="btn btn-primary">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="hamilton.jpg" class="card-img-top img-piloto" alt="Lewis Hamilton">
+                      <div class="card-body">
+                        <h4 class="h5">Lewis Hamilton</h4>
+                        <p class="mb-1">Temporadas: 20</p>
+                        <p class="mb-1">Vitórias: 106</p>
+                        <p class="mb-1">Poles: 105</p>
+                        <p class="mb-0">Títulos: 7</p>
+                        <a href="#" class="btn btn-primary">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card-mercedes">
+              <img src="mercedes.png" class="card-img-top img-equipe" alt="Carro Mercedes">
+              <div class="card-body">
+                <h3 class="card-title text-center">Mercedes</h3>
+                  <a href="#" class="btn btn-primary">ver mais</a>
+
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="russell.png" class="card-img-top img-piloto" alt="George Russell">
+                      <div class="card-body">
+                        <h4 class="h5">George Russell</h4>
+                        <p class="mb-1">Temporadas: 7</p>
+                        <p class="mb-1">Vitórias: 5</p>
+                        <p class="mb-1">Poles: 7</p>
+                        <p class="mb-0">Títulos: 0</p>
+                        <a href="#" class="btn btn-primary">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="card piloto-card h-100">
+                      <img src="antonelli.png" class="card-img-top img-piloto" alt="Kimi Antonelli">
+                      <div class="card-body">
+                        <h4 class="h5">Kimi Antonelli</h4>
+                        <p class="mb-1">Temporadas: 2</p>
+                        <p class="mb-1">Vitórias: 2</p>
+                        <p class="mb-1">Poles: 3</p>
+                        <p class="mb-0">Títulos: 0</p>
+                        <a href="#" class="btn btn-primary">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+              </div>
+      </div>
+
+
+      <div class="col-12 col-lg-4" id="classificacao">
+        <div class="card bg-dark text-white shadow">
+          <div class="card-body">
+            <h3 class="text-center mb-4">Classificação 2026</h3>
+
+            <table class="table table-dark table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>Pos</th>
+                  <th>Piloto</th>
+                  <th>Pts</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1º</td><td>Kimi Antonelli</td><td>75</td></tr>
+                <tr><td>2º</td><td>George Russell</td><td>68</td></tr>
+                <tr><td>3º</td><td>Charles Leclerc</td><td>55</td></tr>
+                <tr><td>4º</td><td>Lewis Hamilton</td><td>43</td></tr>
+                <tr><td>5º</td><td>Lando Norris</td><td>33</td></tr>
+                <tr><td>6º</td><td>Oscar Piastri</td><td>28</td></tr>
+                <tr><td>7º</td><td>Oliver Bearman</td><td>17</td></tr>
+                <tr><td>8º</td><td>Pierre Gasly</td ><td>16</td></tr>
+                <tr><td>9º</td><td>Max Verstappen</td><td>16</td></tr>
+                <tr><td>10º</td><td>Liam Lawson</td><td>10</td></tr>
+                <tr><td>11º</td><td>Arvid Lindblad</td><td>4</td></tr>
+                <tr><td>12º</td><td>Isack Hadjar</td><td>4</td></tr>
+                <tr><td>13º</td><td>Gabriel Bortoleto</td><td>2</td></tr>
+                <tr><td>14º</td><td>Carlos Sainz</td><td>2</td></tr>
+                <tr><td>15º</td><td>Esteban Ocon</td><td>1</td></tr>
+                <tr><td>16º</td><td>Franco Colapinto</td><td>1</td></tr>
+                <tr><td>17º</td><td>Nico Hulkenberg</td><td>0</td></tr>
+                <tr><td>18º</td><td>Alex Albon</td><td>0</td></tr>
+                <tr><td>19º</td><td>Valteri Bottas</td><td>0</td></tr>
+                <tr><td>20º</td><td>Sergio Perez</td><td>0</td></tr>
+                <tr><td>21º</td><td>Fernando Alonso</td><td>0</td></tr>
+                <tr><td>22º</td><td>Lance Stroll</td><td>0</td></tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-2">© 2026 F1 World - Luiz Henrique</p>
+      <a href="#" class="text-white text-decoration-none me-3">Instagram</a>
+      <a href="#" class="text-white text-decoration-none me-3">GitHub</a>
+      <a href="#" class="text-white text-decoration-none">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

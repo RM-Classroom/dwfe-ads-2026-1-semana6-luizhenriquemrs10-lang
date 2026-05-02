@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+}
+
+.piloto-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: inherit;
+    color: white;
+    height:100%;
+}
+.card-mclaren{
+    background-color: #ff8700;
+    color:#ff8700;
+}
+
+.card-redbull{
+    background-color: #1e3a8a;
+    color: #1e3a8a;
+}
+
+.card-ferrari{
+    background-color: #dc2626;
+    color: #dc2626;
+}
+
+.card-mercedes{
+    background-color: #00a19b;
+    color: #00a19b;
+}
+.card-body{
+    background-color: transparent;
+    color: white;
+}
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+}

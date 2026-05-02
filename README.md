@@ -10,18 +10,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Luiz Henrique Macedo  
+- Matricula: 928313
+- Proposta de projeto escolhida: site sobre fórmula 1
+- Breve descrição sobre seu projeto: Atualizando com bootstrap
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![print desktop](public/img/wiriframe%20desktop.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![print mobile](public/img/wiriframe%20desktop.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
